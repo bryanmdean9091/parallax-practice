@@ -1,0 +1,91 @@
+/* body {
+    background-color: green;
+
+} */
+.navbar-brand {
+    font-family: 'Fascinate Inline', cursive;
+}
+.jumbo {
+    background: url("./images/2001.png") no-repeat center center;
+    background-size: cover;
+}
+.sect { background-color: rgba(0, 0, 0, 0.5);
+        
+}
+
+h1 {
+    font-family: 'Fascinate Inline', cursive;
+    color: white;
+
+}
+.parallax {
+    /* The image used */
+    background-image: url("./images/monolith.png");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 {
+    /* The image used */
+    background-image: url("./images/base.png");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    /* The image used */
+    background-image: url("./images/starchild.png");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    border-top: .25rem solid red;
+    
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+@media screen and (min-width: 299px) {
+    .fa-brands {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .fa-brands {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1280x) {
+    .fa-brands {
+        font-size: 4em;
+    }
+}
+
+
+
+ 
+  
