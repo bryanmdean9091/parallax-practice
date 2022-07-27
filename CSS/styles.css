@@ -1,7 +1,4 @@
-/* body {
-    background-color: green;
 
-} */
 .navbar-brand {
     font-family: 'Fascinate Inline', cursive;
 }
@@ -59,12 +56,20 @@ h1 {
 }
 footer {
     border-top: .25rem solid red;
+    border-bottom: .25rem solid red;
     
 }
 li {
     list-style-type: none;
     display: inline-block;
 }
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+}
+
 
 
 @media screen and (min-width: 299px) {
